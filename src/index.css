@@ -8,9 +8,9 @@
 
 li {
   @apply bg-white rounded-xl px-6
-  py-4 flex justify-center text-xl
+  py-4 flex justify-center text-xl select-none
   hover:cursor-pointer hover:rounded-sm
-  hover:scale-110 hover:text-xl
+  hover:scale-110 hover:text-xl hover:-translate-y-1
   transition duration-300;
 }
 
@@ -20,5 +20,5 @@ li {
 
 .result {
   @apply h-20 col-span-4 !justify-end items-center
-    hover:!scale-100 hover:!rounded-xl hover:!cursor-default;
+hover:!scale-100 hover:!rounded-xl hover:!cursor-default hover:!translate-y-0;
 }
