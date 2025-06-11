@@ -17,3 +17,8 @@ li {
 .operator {
   @apply bg-pink-500 text-white text-xl;
 }
+
+.result {
+  @apply h-20 col-span-4 !justify-end items-center
+    hover:!scale-100 hover:!rounded-xl hover:!cursor-default;
+}
