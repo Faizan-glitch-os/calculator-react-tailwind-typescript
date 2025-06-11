@@ -5,6 +5,8 @@ function App() {
 
   const clickHandler = useCallback(
     (button: string) => {
+      const operators: string[] = ["+", "-", "/", "*"];
+
       if (button === "c" || button === "C") {
         setResult("");
         return;
@@ -13,6 +15,8 @@ function App() {
         return;
       } else if (button === "Backspace") {
         setResult(result.slice(0, -1));
+        return;
+      } else if (operators.includes(button) && /[+\-/*]$/.test(result)) {
         return;
       }
 
