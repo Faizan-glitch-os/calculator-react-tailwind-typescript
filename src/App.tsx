@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="max-w-md bg-amber-50/30 rounded-lg px-8 py-4">
+      <div className="max-w-md bg-amber-50/30 rounded-4xl px-4 py-4">
         <ul className="grid grid-cols-4 gap-4">
           <li className="result">{result}</li>
           <li className="col-span-2">
